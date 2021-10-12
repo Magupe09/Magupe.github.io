@@ -160,11 +160,12 @@ header label{
     padding: 1rem 0;
 }
 .detalles .caja-contenedor{
-    height: auto;
+   
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 2rem;
 }
 
 .detalles .caja-contenedor .caja{
@@ -180,6 +181,10 @@ header label{
     transition: .2s linear;
 
 }
+.detalles .caja-contenedor .caja img{
+    height: 15rem;
+}
+
 
 .detalles .caja-contenedor .caja h3{
     font-size: 2rem;
