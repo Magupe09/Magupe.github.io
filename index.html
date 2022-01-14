@@ -95,11 +95,14 @@
     <div class="suscribete">
         <h3>SUSCIBETE PARA OBTENER MAS NOVEDADES</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex nam harum magnam corporis inventore tenetur architecto quam, quaerat veniam suscipit facilis. Placeat ipsa tempore ea iusto non natus nostrum nisi.</p>
-        <form action="">
-            <input type="email" placeholder="ingresa tu email">
+        <form action="" id="form">
+            <input type="email" id="email-form" placeholder="ingresa tu email">
             <input type="submit" value="suscribete">
         </form>
-        
+
+        <label >
+            <input type="checkbox" id="activador"> Terminos y condiciones
+        </label>
     </div>
 
     <section class="opiniones" id="opiniones">
@@ -162,7 +165,13 @@
             </div>
          </div>
        </div>
-    </section>
+    
+    <video id="video" class="video" src="./mesetas.mp4"></video>
+    <button id="play"> PLAY</button>
+    <button id="pause"> PAUSE</button>
+   
+   </section>
+
 
     <section class="precios" id="precios">
         <h1 class="heading">planes de precios</h1>
@@ -282,6 +291,6 @@ d
         </h1>
 
     </div>
-
+ <script src="app.js"></script>
 </body>
 </html>
